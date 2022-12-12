@@ -8,7 +8,7 @@ SPLIT_FILE = 1024 * 1024 * int(os.environ.get('split_file','99'))
 ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('tl_admin_user','Ken_Kaneki_ofc').split(';')
 
-static_proxy = '' #agrega si kieres tener un proxy statico Con @Ken_Kaneki_ofc si kieres comprar un proxy
+static_proxy = 'proxy' #agrega si kieres tener un proxy statico Con @Ken_Kaneki_ofc si kieres comprar un proxy
 PROXY = ProxyCloud.parse(static_proxy)
 
 if PROXY:
